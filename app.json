@@ -1,0 +1,61 @@
+{
+  "name": "ʀᴇʏ sᴛʀɪɴɢ ɢᴇɴᴇʀᴀᴛᴏʀ",
+  "description": "Bot Telegram untuk menghasilkan Sesi String Telethon dan Pyrogram.",
+  "logo": "https://telegra.ph/file/e506813784c3bbe59e9a5.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+  "repository": "https://github.com/AL3X-Github/String-Rey",
+  "env": {
+    "ENVIRONMENT": {
+      "description": "Jangan mengubah APA SAJA.",
+      "required": true,
+      "value": "APA SAJA"
+    },
+    "API_ID": {
+      "description": "Dapatkan nilai ini dari my.telegram.org/apps.",
+      "required": true,
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Dapatkan nilai ini dari my.telegram.org/apps.",
+      "required": true,
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "Telegram id dari orang yang akan dikenal sebagai pemilik bot.",
+      "required": true,
+      "value": ""
+    },
+    "MUST_JOIN": {
+      "description": "Nama pengguna grup atau saluran yang ingin Anda atur force sub.(tanpa @)",
+      "required": true,
+      "value": "reyn0pe"
+    },
+    "BOT_TOKEN": {
+      "description": "Dapatkan nilai ini dari @BotFather",
+      "required": true,
+      "value": ""
+    }
+  }
+}
