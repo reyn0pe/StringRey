@@ -59,7 +59,7 @@ Setidaknya Beri Bintang dan Fork Repo ⭐
 <p align="center"><a href="https://github.com/reyn0pe"><img alt="Website" src="https://img.shields.io/badge/ㅤPowered By ⏤͟͞ ꝛᴇʏ -blue"></a></p>
 
 
-![Support Cover](https://github.com/AL3X-Github/Resources/blob/main/Photos/Support.png)
+![Support Cover](https://telegra.ph/file/e33a071b60eabc35253e4.jpg)
 
 </div>
 
